@@ -1,0 +1,149 @@
+
+html, body {margin: 0; height: 100%;}
+
+
+
+div.header {
+    background-color: transparent;
+    font-family: serif;
+    padding: 30px;
+    margin-left: 90px;
+    
+ } 
+
+div.site-logo{
+	margin-top: 100px;
+	
+}
+div.site-logo img{
+	width: 60px;
+	height: 60px;
+	border-radius: 100px;
+	position: absolute;
+	filter: contrast(150%)
+}
+div.site-title-info h2{
+  font-family: 'Roboto', sans-serif;
+}
+
+ h2 { font-size: 40px; margin-left: 80px; margin-top: 0px; }
+
+div.header h2 a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ div.header-nav-bar{
+ 	background-color: #transparent;
+    
+ 	
+ }
+
+ .header-nav-bar ul {
+
+ 	margin-left: 65px;
+ 	margin-top: 0px;
+ 	padding: 8px;
+ 	float: left;
+	background-color: transparent;
+	font-family: tempus sans itc;
+ }
+
+ li{
+ 	
+ 	display: inline;
+    
+ }
+
+div.header-nav-bar a{
+	color: Red;
+	font-weight: bold;
+	font-size: 20px;
+    padding: 10px;
+    font-family: Arial;
+  }
+  
+div.header-nav-bar ul li a{
+	text-decoration: none;
+}
+
+div.header-item-collection{
+float: right;
+margin-right: 190px;
+
+}
+
+.header-item-collection a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+
+}
+
+
+div.container {
+     margin-left: 1.5em;
+     color: black;
+     box-sizing: inherit;
+     font-size: 50px;
+     line-height: 1.2em;
+     
+}
+div.container h1{
+	position: absolute;
+	top: 500px;
+	font-family: calibri;
+}
+
+div.Container-item{
+    margin-left: 200px;
+    font-family: ariel;
+    font-weight: normal;
+
+}
+
+div.Container-item-list a{
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+div.Container-item-list{
+   margin-top: 70px;
+}
+
+div.Container-item-list h4{
+	font-weight: normal;
+}
+
+div.site-info {
+ position: fixed;
+ bottom: 0;
+ padding:80px;
+ color: grey;
+ margin-left: 10em;
+ font-weight: normal;
+}
+
+div.site-info h3{
+ font-family: 'Antic', sans-serif;
+ font-size: 15px;
+}
+
+div.content-intro {
+  margin-left: 200px;
+  margin-top: 5em;
+  padding: 10px;
+	
+}
+
+div.content-intro p{
+	text-align: justify;
+	line-height: 2em;
+	max-width: 58em;
+
+}
