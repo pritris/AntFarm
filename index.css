@@ -121,8 +121,7 @@ div.Container-item-list h4{
 }
 
 div.site-info {
- position: fixed;
- bottom: 0;
+ 
  padding:80px;
  color: grey;
  margin-left: 10em;
