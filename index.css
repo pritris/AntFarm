@@ -1,0 +1,155 @@
+
+html, body {margin: 0; height: 100%;}
+
+
+
+div.header {
+    background-color: transparent;
+    margin-left: 3%;
+    
+ } 
+
+div.site-logo{
+	margin-top: 10%;
+	
+}
+div.site-logo img{
+	width: 60px;
+	height: 60px;
+	border-radius: 100px;
+	position: absolute;
+	filter: contrast(150%)
+}
+div.site-title-info h2{
+  font-family: 'Roboto', sans-serif;
+}
+
+ h2 { font-size: 40px; margin-left: 80px; margin-top: 0px; }
+
+div.header h2 a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+ div.header-nav-bar{
+ 	background-color: #transparent;
+    
+ 	
+ }
+
+ .header-nav-bar ul {
+
+ 	margin-top: 0px;
+ 	padding: 8px;
+ 	float: left;
+	background-color: transparent;
+	font-family: tempus sans itc;
+ }
+
+ li{
+ 	
+ 	display: inline;  
+ }
+
+div.header-nav-bar a{
+	color: Red;
+	font-weight: bold;
+	font-size: 20px;
+    padding: 10px;
+    font-family: Arial;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+div.header-nav-bar ul li a{
+	text-decoration: none;
+}
+
+div.site-info {
+ color: grey;
+ padding: 5%;
+ text-align: center;
+ margin-top: 5%;
+
+}
+
+div.site-info h3{
+ font-family: 'Antic', sans-serif;
+ font-size: 10px;
+ color: black;
+ font-weight: bold;
+
+
+}
+div.site-info h4{
+	font-family: 'sen';
+	color: grey;
+	font-size: 8px;
+	font-weight: normal;
+}
+div.content-intro {
+  margin-top: 7em;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+div.content-intro p{
+	text-align: justify;
+	line-height: 2em;
+	max-width: 58em;
+
+}
+
+@media (min-width:1025px){
+div.content-intro {
+	margin-left: 200px;
+	margin-top: 5em;
+}
+div.content-intro p{
+	text-align: justify;
+	line-height: 2em;
+	max-width: 58em;
+
+}
+div.header{
+	margin-left: 90px;
+	padding: 30px;
+}
+
+div.site-info{
+	margin-left: 12%;
+	padding: 80px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.site-info h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+
+}
+div.site-info h4{
+	font-family: 'sen';
+	color: grey;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: left;
+}
+
+ .header-nav-bar ul {
+
+ 	margin-left: 65px;
+
+ }
+div.site-logo{
+	margin-top: 100px;
+	}
+
+}
